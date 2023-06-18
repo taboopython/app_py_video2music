@@ -23,19 +23,23 @@ A file named docker-compose.yml. This tells Docker what to do.
 A file named videotomusic.py. This is our magic spell, the program that converts the video to audio!
 Your folders and files should look like this:
 
-/Directory Structure/
+## Directory Structure 📁
+```
 video-converter/
 |-- Dockerfile
 |-- docker-compose.yml
 |-- videotomusic.py
 |-- data/
 |    |-- your-video.mp4  (put your video here!)
+```
 
 # Step 2: Setting Up Docker
 Open your terminal or command prompt. It's like talking to the computer in its language! Go to the video-converter folder by typing:
 
 bash
+```
 cd path/to/your/video-converter
+```
 
 Now, ask Docker to build the mini computer:
 
@@ -45,8 +49,10 @@ docker-compose build
 Now, for the fun part! Type this 
 
 command:
-
+```
 docker-compose run converter
+```
+
 This tells Docker to run our magic spell and convert the video. If all goes well, you will find an MP3 file in the data folder!
 
 # Cleaning Up 🧹
