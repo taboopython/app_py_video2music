@@ -1,0 +1,12 @@
+# docker-compose.yml
+
+version: '3.1'
+
+services:
+  converter:
+    build: .
+    environment:
+      - INPUT_FILE=/data/video_2306181250.mp4 #your video_path_and_filename
+    volumes:
+      - ./data:/data
+    command: python videotomusic.py

@@ -1,0 +1,40 @@
+# 依存関係ディレクトリ
+/node_modules
+/vendor
+
+# ビルドディレクトリ
+/dist
+/build
+
+# システムファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ/IDE設定
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ログとキャッシュ
+*.log
+*.cache
+/logs
+
+# コンパイルされたファイル
+*.class
+*.dll
+*.exe
+
+# 設定ファイルとシークレット
+.env
+*.pem
+config.js
+
+# バージョン管理外のファイル
+# この部分はプロジェクト固有なファイルを指定してください
+
+
+*.mp4
+*.mp3
